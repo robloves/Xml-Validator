@@ -81,7 +81,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(16, 15);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1072, 484);
@@ -95,9 +95,9 @@
             this.tabPage1.Controls.Add(this.btnSelectXML);
             this.tabPage1.Controls.Add(this.txtXML);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1064, 455);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Validate";
@@ -110,7 +110,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbOutput.ContextMenuStrip = this.contextMenuStrip1;
             this.rtbOutput.Location = new System.Drawing.Point(8, 63);
-            this.rtbOutput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbOutput.Margin = new System.Windows.Forms.Padding(4);
             this.rtbOutput.Name = "rtbOutput";
             this.rtbOutput.Size = new System.Drawing.Size(1044, 381);
             this.rtbOutput.TabIndex = 13;
@@ -119,7 +119,7 @@
             // btnValidate
             // 
             this.btnValidate.Location = new System.Drawing.Point(643, 27);
-            this.btnValidate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnValidate.Margin = new System.Windows.Forms.Padding(4);
             this.btnValidate.Name = "btnValidate";
             this.btnValidate.Size = new System.Drawing.Size(411, 28);
             this.btnValidate.TabIndex = 11;
@@ -133,18 +133,18 @@
             this.label1.Location = new System.Drawing.Point(4, 33);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 17);
+            this.label1.Size = new System.Drawing.Size(129, 17);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Kies het XML bestand:";
+            this.label1.Text = "Select the XML file:";
             // 
             // btnSelectXML
             // 
             this.btnSelectXML.Location = new System.Drawing.Point(535, 27);
-            this.btnSelectXML.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSelectXML.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelectXML.Name = "btnSelectXML";
             this.btnSelectXML.Size = new System.Drawing.Size(100, 28);
             this.btnSelectXML.TabIndex = 8;
-            this.btnSelectXML.Text = "Selecteer";
+            this.btnSelectXML.Text = "Select";
             this.btnSelectXML.UseVisualStyleBackColor = true;
             this.btnSelectXML.Click += new System.EventHandler(this.btnSelectXML_Click);
             // 
@@ -152,7 +152,7 @@
             // 
             this.txtXML.Enabled = false;
             this.txtXML.Location = new System.Drawing.Point(164, 30);
-            this.txtXML.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtXML.Margin = new System.Windows.Forms.Padding(4);
             this.txtXML.Name = "txtXML";
             this.txtXML.Size = new System.Drawing.Size(361, 22);
             this.txtXML.TabIndex = 7;
@@ -167,9 +167,9 @@
             this.tabPage2.Controls.Add(this.btn2SelectXML);
             this.tabPage2.Controls.Add(this.txt2SelectXML);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1064, 455);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "XML 2 PDF";
@@ -178,7 +178,7 @@
             // btn2Format
             // 
             this.btn2Format.Location = new System.Drawing.Point(652, 27);
-            this.btn2Format.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2Format.Margin = new System.Windows.Forms.Padding(4);
             this.btn2Format.Name = "btn2Format";
             this.btn2Format.Size = new System.Drawing.Size(401, 68);
             this.btn2Format.TabIndex = 16;
@@ -189,11 +189,11 @@
             // btn2SelectStylesheet
             // 
             this.btn2SelectStylesheet.Location = new System.Drawing.Point(544, 68);
-            this.btn2SelectStylesheet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2SelectStylesheet.Margin = new System.Windows.Forms.Padding(4);
             this.btn2SelectStylesheet.Name = "btn2SelectStylesheet";
             this.btn2SelectStylesheet.Size = new System.Drawing.Size(100, 28);
             this.btn2SelectStylesheet.TabIndex = 15;
-            this.btn2SelectStylesheet.Text = "Selecteer";
+            this.btn2SelectStylesheet.Text = "Select";
             this.btn2SelectStylesheet.UseVisualStyleBackColor = true;
             this.btn2SelectStylesheet.Click += new System.EventHandler(this.btn2SelectStylesheet_Click);
             // 
@@ -201,7 +201,7 @@
             // 
             this.txt2SelectStylesheet.Enabled = false;
             this.txt2SelectStylesheet.Location = new System.Drawing.Point(173, 70);
-            this.txt2SelectStylesheet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt2SelectStylesheet.Margin = new System.Windows.Forms.Padding(4);
             this.txt2SelectStylesheet.Name = "txt2SelectStylesheet";
             this.txt2SelectStylesheet.Size = new System.Drawing.Size(361, 22);
             this.txt2SelectStylesheet.TabIndex = 14;
@@ -212,9 +212,9 @@
             this.label3.Location = new System.Drawing.Point(4, 74);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 17);
+            this.label3.Size = new System.Drawing.Size(143, 17);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Kies de stylesheet:";
+            this.label3.Text = "Select the stylesheet:";
             // 
             // label2
             // 
@@ -222,18 +222,18 @@
             this.label2.Location = new System.Drawing.Point(4, 33);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 17);
+            this.label2.Size = new System.Drawing.Size(129, 17);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Kies het XML bestand:";
+            this.label2.Text = "Select the XML file:";
             // 
             // btn2SelectXML
             // 
             this.btn2SelectXML.Location = new System.Drawing.Point(544, 27);
-            this.btn2SelectXML.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2SelectXML.Margin = new System.Windows.Forms.Padding(4);
             this.btn2SelectXML.Name = "btn2SelectXML";
             this.btn2SelectXML.Size = new System.Drawing.Size(100, 28);
             this.btn2SelectXML.TabIndex = 11;
-            this.btn2SelectXML.Text = "Selecteer";
+            this.btn2SelectXML.Text = "Select";
             this.btn2SelectXML.UseVisualStyleBackColor = true;
             this.btn2SelectXML.Click += new System.EventHandler(this.btn2SelectXML_Click);
             // 
@@ -241,7 +241,7 @@
             // 
             this.txt2SelectXML.Enabled = false;
             this.txt2SelectXML.Location = new System.Drawing.Point(173, 30);
-            this.txt2SelectXML.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt2SelectXML.Margin = new System.Windows.Forms.Padding(4);
             this.txt2SelectXML.Name = "txt2SelectXML";
             this.txt2SelectXML.Size = new System.Drawing.Size(361, 22);
             this.txt2SelectXML.TabIndex = 10;
@@ -253,7 +253,7 @@
             this.ClientSize = new System.Drawing.Size(1104, 503);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(1000, 550);
             this.Name = "Form1";
             this.Text = "XML Validator";

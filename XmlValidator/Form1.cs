@@ -16,11 +16,11 @@ namespace XmlValidator
 
         // ***********************************************************************************
         //
-        //  TABBLAD 1 : VALIDATE
+        //  TAB 1 : VALIDATE
         //
         // ***********************************************************************************
 
-        #region "tabblad 1"
+        #region "tab 1"
 
         /// <summary>
         /// Select an XML file and start validation
@@ -108,20 +108,20 @@ namespace XmlValidator
             rtbOutput.AppendText(Environment.NewLine);
         }
 
-        #endregion "tabblad 1"
+        #endregion "tab 1"
 
 
         // ***********************************************************************************
         //
-        //  TABBLAD 2 : XML 2 PDF
+        //  TAB 2 : XML 2 PDF
         //
         // ***********************************************************************************
 
-        #region "tabblad 2"
+        #region "tab 2"
 
         private void btn2SelectXML_Click(object sender, EventArgs e)
         {
-            // Alleen zoeken naar xlm of fo bestanden
+            // Only look for xlm or fo files
             this.openFileDialog1.FileName = "*.xml;.fo";
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -133,7 +133,7 @@ namespace XmlValidator
 
         private void btn2SelectStylesheet_Click(object sender, EventArgs e)
         {
-            // Alleen zoeken naar xsl of xslt bestanden
+            // Only look for xsl or xslt files
             this.openFileDialog1.FileName = "*.xsl;.xslt";
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -148,7 +148,7 @@ namespace XmlValidator
             
         }
 
-        #endregion "tabblad 2"
+        #endregion "tab 2"
 
         /// <summary>
         /// Change font
